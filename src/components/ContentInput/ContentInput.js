@@ -26,7 +26,7 @@ const ContentInput = ({ visible, onClose, onSend }) => {
             <View style={styles.container}>
                 <View style={styles.input_container}>
                     <TextInput
-                        placeholder="hadi derdini paylaş..."
+                        placeholder="Paylaşmak istediğin yazıyı gir..."
                         placeholderTextColor="black"
                         onChangeText={setText} multiline />
                 </View>
